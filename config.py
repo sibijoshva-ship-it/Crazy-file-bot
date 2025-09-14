@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[6369632123,7763718590]
+    ADMINS=[6369632123]
     for x in (os.environ.get("ADMINS", "6299192020").split()):
         ADMINS.append(int(x))
 except ValueError:
